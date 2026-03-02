@@ -231,7 +231,7 @@ function HeroSection() {
         <div className="max-w-3xl">
           <div className="flex items-center gap-3 mb-6 animate-fade-in-up delay-100">
             <div className="h-px w-10 bg-amber-500" />
-            <span className="text-amber-400 text-xs tracking-[0.3em] uppercase font-mono">ООО Станкогид · С 1998 года</span>
+            <span className="text-amber-400 text-xs tracking-[0.3em] uppercase font-mono">ООО Станкогид</span>
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold text-white leading-none mb-6 animate-fade-in-up delay-200"
@@ -260,9 +260,9 @@ function HeroSection() {
           <div className="flex flex-wrap gap-8 animate-fade-in-up delay-500">
             {[
               { n: "60+", label: "Моделей" },
-              { n: "25", label: "Лет на рынке" },
-              { n: "98+", label: "РФ и СНГ" },
-              { n: "24", label: "Мес. гарантия" },
+              { n: "20", label: "Лет на рынке" },
+              { n: "98+", label: "Регионов поставок" },
+              { n: "12", label: "Мес. гарантия" },
             ].map(s => (
               <div key={s.label} className="text-center">
                 <div className="text-3xl font-bold text-amber-400 stat-number">{s.n}</div>
@@ -307,9 +307,9 @@ function AboutSection() {
             <div className="grid grid-cols-2 gap-4">
               {[
                 { icon: "Award", text: "Сертифицировано по ГОСТ" },
-                { icon: "Globe", text: "Поставки в 45+ регионов" },
-                { icon: "Users", text: "180 специалистов в штате" },
-                { icon: "Settings", text: "Собственный конструкторский отдел" },
+                { icon: "Globe", text: "Поставки в 98+ регионов РФ и СНГ" },
+                { icon: "Users", text: "180+ клиентов" },
+                { icon: "Settings", text: "За чертежами — 30 лет практики" },
               ].map(i => (
                 <div key={i.text} className="flex items-start gap-3">
                   <div className="w-8 h-8 bg-amber-500/10 border border-amber-500/30 flex items-center justify-center shrink-0 mt-0.5">
