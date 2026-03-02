@@ -217,7 +217,7 @@ function HeroSection() {
                className="bg-amber-500 hover:bg-amber-400 text-black font-bold px-8 py-4 text-sm tracking-wider uppercase transition-all hover:shadow-[0_0_30px_rgba(245,158,11,0.4)]">
               Смотреть каталог
             </a>
-            <a href="#contacts"
+            <a href="https://t.me/Stankogid_tg" target="_blank" rel="noopener noreferrer"
                className="border border-amber-500/50 hover:border-amber-400 text-amber-400 hover:text-amber-300 font-bold px-8 py-4 text-sm tracking-wider uppercase transition-all">
               Запросить КП
             </a>
@@ -389,10 +389,10 @@ function CatalogSection() {
             <div className="text-white font-bold text-lg mb-1" style={{ fontFamily: 'Oswald, sans-serif' }}>СКАЧАТЬ ПОЛНЫЙ КАТАЛОГ</div>
             <div className="text-gray-500 text-sm">PDF, актуальная редакция 2024 — все технические характеристики</div>
           </div>
-          <button className="flex items-center gap-3 bg-amber-500 hover:bg-amber-400 text-black font-bold px-8 py-3.5 transition-all whitespace-nowrap hover:shadow-[0_0_25px_rgba(245,158,11,0.35)] text-sm tracking-wider uppercase">
+          <a href="https://t.me/Stankogid_tg" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 bg-amber-500 hover:bg-amber-400 text-black font-bold px-8 py-3.5 transition-all whitespace-nowrap hover:shadow-[0_0_25px_rgba(245,158,11,0.35)] text-sm tracking-wider uppercase">
             <Icon name="Download" size={16} />
             Скачать PDF
-          </button>
+          </a>
         </div>
       </div>
 
@@ -432,15 +432,15 @@ function CatalogSection() {
             </div>
 
             <div className="mt-8 flex gap-3">
-              <a href="#contacts"
+              <a href="https://t.me/Stankogid_tg" target="_blank" rel="noopener noreferrer"
                  onClick={() => setSelectedModel(null)}
                  className="flex-1 bg-amber-500 hover:bg-amber-400 text-black font-bold py-3 text-center text-sm tracking-wider uppercase transition-all">
                 Запросить КП
               </a>
-              <button className="flex items-center gap-2 border border-gray-700 hover:border-amber-500/50 text-gray-400 hover:text-amber-400 px-5 py-3 text-sm transition-all">
+              <a href="https://t.me/Stankogid_tg" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 border border-gray-700 hover:border-amber-500/50 text-gray-400 hover:text-amber-400 px-5 py-3 text-sm transition-all">
                 <Icon name="Download" size={14} />
                 PDF
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -667,9 +667,9 @@ function ContactsSection() {
                   className="w-full bg-[#080B10] border border-gray-700 focus:border-amber-500/50 text-white px-4 py-3 text-sm outline-none transition-colors resize-none"
                 />
               </div>
-              <button className="w-full bg-amber-500 hover:bg-amber-400 text-black font-bold py-4 text-sm tracking-wider uppercase transition-all hover:shadow-[0_0_30px_rgba(245,158,11,0.4)]">
+              <a href="https://t.me/Stankogid_tg" target="_blank" rel="noopener noreferrer" className="block w-full bg-amber-500 hover:bg-amber-400 text-black font-bold py-4 text-sm tracking-wider uppercase transition-all hover:shadow-[0_0_30px_rgba(245,158,11,0.4)] text-center">
                 Отправить запрос
-              </button>
+              </a>
               <p className="text-gray-600 text-xs text-center">
                 Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности
               </p>
