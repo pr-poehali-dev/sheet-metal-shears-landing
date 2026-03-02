@@ -216,7 +216,7 @@ function HeroSection() {
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src="https://cdn.poehali.dev/projects/7b30ec8d-5902-4dca-9290-03555585c418/files/70c950a8-7618-4e28-b426-d3142291afc4.jpg"
+          src="https://cdn.poehali.dev/projects/7b30ec8d-5902-4dca-9290-03555585c418/bucket/78f8aa04-ea4d-4cba-81b7-74c9ae3b9c43.png"
           alt="Промышленные ножницы Станкогид"
           className="w-full h-full object-cover opacity-20"
         />
