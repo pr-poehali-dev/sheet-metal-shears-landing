@@ -684,7 +684,7 @@ function ContactsSection() {
                 {[
                   { icon: "Phone", label: "Телефон", value: "+7 919 859-89-35", sub: "" },
                   { icon: "Mail", label: "E-mail", value: "info@stankogid.ru", sub: "Ответ в течение часа" },
-                  { icon: "MapPin", label: "Адрес", value: "г. Москва, ул. Промышленная, 12", sub: "Офис и производство" },
+                  { icon: "MapPin", label: "Адрес", value: "г. Оренбург, ул. Донгузская 3-й проезд, 64", sub: "Офис и производство" },
                 ].map(c => (
                   <div key={c.label} className="flex gap-4 pb-4 border-b border-gray-800 last:border-0 last:pb-0">
                     <div className="w-9 h-9 bg-amber-500/10 border border-amber-500/20 flex items-center justify-center shrink-0">
