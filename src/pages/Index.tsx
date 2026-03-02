@@ -183,10 +183,10 @@ function NavBar() {
         </div>
 
         <div className="flex items-center gap-3">
-          <a href="tel:+78001234567"
+          <a href="tel:+79198598935"
              className="hidden md:flex items-center gap-2 text-amber-400 font-mono text-sm font-medium">
             <Icon name="Phone" size={14} />
-            8 800 123-45-67
+            +7 919 859-89-35
           </a>
           <a href="#contacts"
              className="hidden md:block bg-amber-500 hover:bg-amber-400 text-black text-sm font-bold px-5 py-2 transition-colors tracking-wide">
@@ -718,7 +718,7 @@ function ContactsSection() {
               <h4 className="text-gray-400 text-xs uppercase tracking-wider mb-4">Контакты</h4>
               <div className="space-y-4">
                 {[
-                  { icon: "Phone", label: "Телефон", value: "8 800 123-45-67", sub: "Бесплатно по России" },
+                  { icon: "Phone", label: "Телефон", value: "+7 919 859-89-35", sub: "" },
                   { icon: "Mail", label: "E-mail", value: "info@stankogid.ru", sub: "Ответ в течение часа" },
                   { icon: "MapPin", label: "Адрес", value: "г. Москва, ул. Промышленная, 12", sub: "Офис и производство" },
                 ].map(c => (
