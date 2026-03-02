@@ -218,7 +218,7 @@ function HeroSection() {
         <img
           src="https://cdn.poehali.dev/projects/7b30ec8d-5902-4dca-9290-03555585c418/bucket/78f8aa04-ea4d-4cba-81b7-74c9ae3b9c43.png"
           alt="Промышленные ножницы Станкогид"
-          className="w-full h-full object-cover opacity-20"
+          className="w-full h-full object-contain object-right opacity-30"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#0B0E14] via-[#0B0E14]/80 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#0B0E14] via-transparent to-transparent" />
