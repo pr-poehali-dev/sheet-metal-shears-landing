@@ -299,7 +299,7 @@ function AboutSection() {
               НАДЁЖНОСТЬ,<br /><span className="text-amber-400">ПРОВЕРЕННАЯ</span><br />ВРЕМЕНЕМ
             </h2>
             <p className="text-gray-400 leading-relaxed mb-6">
-              ООО «Станкогид» — российский производитель промышленных ножниц для листового металла. С 1998 года мы создаём оборудование, которое работает на заводах, металлобазах и в заготовительных цехах по всей стране.
+              ООО «Станкогид» — российский производитель промышленных ножниц для листового металла. Опыт работы с 2006 года, оборудование установлено на заводах, металлобазах и в заготовительных цехах по всей стране.
             </p>
             <p className="text-gray-400 leading-relaxed mb-8">
               Наши ножницы установлены на предприятиях машиностроения, судостроения, автомобилестроения и строительной индустрии. Мы обеспечиваем полный цикл — от разработки до пуско-наладки и сервисного обслуживания.
@@ -332,8 +332,8 @@ function AboutSection() {
 
             {/* Badge */}
             <div className="absolute top-6 left-6 bg-[#0B0E14]/90 backdrop-blur border border-amber-500/30 px-4 py-3">
-              <div className="text-amber-400 font-mono text-2xl font-bold">1998</div>
-              <div className="text-gray-400 text-xs uppercase tracking-widest">Год основания</div>
+              <div className="text-amber-400 font-mono text-2xl font-bold">2006</div>
+              <div className="text-gray-400 text-xs uppercase tracking-widest">Работаем с 2006</div>
             </div>
           </div>
         </div>
