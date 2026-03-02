@@ -331,7 +331,7 @@ function AboutSection() {
             {/* Badge */}
             <div className="absolute top-6 left-6 bg-[#0B0E14]/90 backdrop-blur border border-amber-500/30 px-4 py-3">
               <div className="text-amber-400 font-mono text-2xl font-bold">2006</div>
-              <div className="text-gray-400 text-xs uppercase tracking-widest">Работаем с 2006</div>
+              <div className="text-gray-400 text-xs uppercase tracking-widest">опыт работы с</div>
             </div>
           </div>
         </div>
