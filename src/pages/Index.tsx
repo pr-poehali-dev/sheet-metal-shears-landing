@@ -574,8 +574,8 @@ function DeliverySection() {
 
             {/* Big number */}
             <div className="mb-4 p-6 border border-amber-500/20 bg-amber-500/5 text-center">
-              <div className="text-7xl font-bold text-amber-400 stat-number">12</div>
-              <div className="text-gray-400 text-sm uppercase tracking-widest mt-2">месяцев гарантии</div>
+              <div className="text-7xl font-bold text-amber-400 stat-number">24</div>
+              <div className="text-gray-400 text-sm uppercase tracking-widest mt-2">месяца гарантии</div>
               <div className="text-gray-500 text-xs mt-2">*при условии приобретения пакета расширенной гарантии</div>
             </div>
 
