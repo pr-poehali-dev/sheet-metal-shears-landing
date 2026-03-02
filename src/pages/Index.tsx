@@ -288,7 +288,7 @@ function AboutSection() {
 
           <div className="relative">
             <img
-              src="https://cdn.poehali.dev/projects/7b30ec8d-5902-4dca-9290-03555585c418/files/554984f4-fcd2-43f0-9016-2a2f81836a47.jpg"
+              src="https://cdn.poehali.dev/projects/7b30ec8d-5902-4dca-9290-03555585c418/bucket/1cc24e9d-cafe-4e85-9755-9e9940cbcbc2.jpeg"
               alt="Производство Станкогид"
               className="w-full h-[480px] object-cover"
             />
