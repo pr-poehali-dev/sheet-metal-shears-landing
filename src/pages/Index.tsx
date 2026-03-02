@@ -188,7 +188,7 @@ function NavBar() {
             <Icon name="Phone" size={14} />
             +7 919 859-89-35
           </a>
-          <a href="#contacts"
+          <a href="https://t.me/Stankogid_tg" target="_blank" rel="noopener noreferrer"
              className="hidden md:block bg-amber-500 hover:bg-amber-400 text-black text-sm font-bold px-5 py-2 transition-colors tracking-wide">
             Запрос КП
           </a>
