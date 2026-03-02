@@ -164,9 +164,7 @@ function NavBar() {
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
         <div className="flex items-center gap-3">
-          <div className="w-8 h-8 bg-amber-500 flex items-center justify-center">
-            <Icon name="Scissors" size={16} className="text-black" />
-          </div>
+          <img src="https://cdn.poehali.dev/projects/7b30ec8d-5902-4dca-9290-03555585c418/bucket/4607f76c-d87d-44d3-917f-b72784471b8e.png" alt="Станкогид" className="h-10 w-auto" />
           <div>
             <span className="font-oswald font-bold text-white text-lg tracking-widest" style={{ fontFamily: 'Oswald, sans-serif' }}>СТАНКОГИД</span>
             <div className="text-amber-500/60 text-[9px] tracking-[0.25em] font-mono -mt-1">ПРОМЫШЛЕННОЕ ОБОРУДОВАНИЕ</div>
