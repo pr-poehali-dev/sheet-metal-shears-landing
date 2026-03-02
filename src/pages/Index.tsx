@@ -261,7 +261,7 @@ function HeroSection() {
             {[
               { n: "60+", label: "Моделей" },
               { n: "25", label: "Лет на рынке" },
-              { n: "1200+", label: "Поставок" },
+              { n: "98+", label: "РФ и СНГ" },
               { n: "24", label: "Мес. гарантия" },
             ].map(s => (
               <div key={s.label} className="text-center">
