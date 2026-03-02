@@ -573,17 +573,18 @@ function DeliverySection() {
             </div>
 
             {/* Big number */}
-            <div className="mb-8 p-6 border border-amber-500/20 bg-amber-500/5 text-center">
-              <div className="text-7xl font-bold text-amber-400 stat-number">24</div>
-              <div className="text-gray-400 text-sm uppercase tracking-widest mt-2">месяца гарантии</div>
+            <div className="mb-4 p-6 border border-amber-500/20 bg-amber-500/5 text-center">
+              <div className="text-7xl font-bold text-amber-400 stat-number">12</div>
+              <div className="text-gray-400 text-sm uppercase tracking-widest mt-2">месяцев гарантии</div>
+              <div className="text-gray-500 text-xs mt-2">*при условии приобретения пакета расширенной гарантии</div>
             </div>
 
             <div className="space-y-4">
               {[
                 { icon: "Wrench", text: "Бесплатный ремонт или замена в течение гарантийного срока" },
-                { icon: "Phone", text: "Горячая линия технической поддержки 24/7" },
+                { icon: "Phone", text: "Горячая линия технической поддержки" },
                 { icon: "FileCheck", text: "Сертификаты соответствия и паспорта качества на всё оборудование" },
-                { icon: "RefreshCw", text: "Наличие запасных частей на складе сроком до 10 лет после покупки" },
+                { icon: "RefreshCw", text: "Наличие запасных частей на складе" },
               ].map(i => (
                 <div key={i.text} className="flex gap-3">
                   <Icon name={i.icon} size={15} className="text-amber-400 mt-0.5 shrink-0" />
